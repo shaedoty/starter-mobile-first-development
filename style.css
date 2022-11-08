@@ -1,29 +1,77 @@
-main {
-  margin-top: 60px;
+body{
+  margin: 0;
 }
 
-main h1 {
-  margin: 0 10px;
-  text-align: center;
-  font-family: "Amatic SC", cursive;
-  font-size: 65px;
+header {
+    /* border: 5px solid red; */
+    background-color: rgb(9, 9, 112);
 }
 
-main h2 {
-  margin: 18px 0 12px 0;
-  border-bottom: 1px solid #5c4f41;
-  font-family: "Special Elite", cursive;
-  font-size: 24px;
+header h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+margin: 0;
 }
 
-main h3 {
-  margin: 18px 0 12px 0;
-  border-bottom: 1px solid #5c4f41;
-  font-family: "Special Elite", cursive;
-  font-size: 18px;
+header nav {
+    display: flex;
+    justify-content: center;
 }
 
-main p {
-  font-family: "Roboto", sans-serif;
-  margin-top: 0;
+header nav ul{
+   
+    display: flex;
+    padding-left: 0px;
+    list-style: none;
+    font-family: montserrat,
+    'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
+
+
+
+header nav ul li a {
+    color:#fff;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+  }
+
+  header nav ul li:last-child a {
+    margin-right: 0px;
+    }
+
+
+    @media all and (min-width: 600px){
+        header{
+          display: flex;
+          justify-content: space-between;
+          padding: 0px 30px;
+  }
+   header h1{
+   margin: 14px 0px;
+   padding-top: 0px;
+}
+
+header nav {
+
+  margin-top: 8px;
+}
+ header nav ul li a:hover{
+  color:#bdbdbd
+} 
+}
+  
+
+
+
+
+
+
+        
+       
+      
+      
+      
+      
+
